@@ -134,13 +134,13 @@
             const progress = document.getElementById('progress');
             const status = document.getElementById('load-status');
             
-            status.innerText = "Landshaft generatsiya qilinmoqda...";
-            progress.style.width = "30%";
+            status.innerText = "yangi dunyo generatsiya qilinmoqda...";
+            progress.style.width = "...";
             
             setTimeout(() => {
                 generateMegaVillage();
-                progress.style.width = "100%";
-                status.innerText = "Tayyor!";
+                progress.style.width = "...";
+                status.innerText = "...";
                 setTimeout(() => {
                     document.getElementById('loading').style.display = 'none';
                 }, 500);
